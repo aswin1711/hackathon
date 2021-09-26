@@ -65,13 +65,6 @@ function sortGreatest(arr) {
 const displayData = (data) => {
 
     clearData();
-
-    //Current Name
-    // const nameEle = document.createElement('h4');
-    // nameEle.classList = 'text-success mb-3';
-    // const nameText = document.createTextNode(`Current Name : ${data.name}`);
-    // nameEle.appendChild(nameText);
-    // root.appendChild(nameEle);
     
     if (data.length > 0) {
         //Countries
